@@ -3,7 +3,9 @@ function NavBar() {
   
     return (
       <>
-        <div>Nav</div>
+        <p>Home</p>
+        <p>Activities</p>
+        <p>Wardrobe</p>
       </>
     )
 
