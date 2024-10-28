@@ -1,11 +1,13 @@
+import { Link } from 'react-router-dom';
+
 function NavBar() {
 
   
     return (
       <>
-        <p>Home</p>
-        <p>Activities</p>
-        <p>Wardrobe</p>
+       <Link to='/'>Home</Link>
+       <Link to='/activities'>Activities</Link>
+       <Link to='/wardrobe'>Wardrobe</Link>
       </>
     )
 
